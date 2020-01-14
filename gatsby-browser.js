@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * Implement Gatsby's Browser APIs in this file.
  *
@@ -5,3 +6,6 @@
  */
 
 // You can delete this file if you're not using it
+//import library that is going to be used outside of react
+import 'lazysizes';
+require('prismjs/themes/prism-coy.css');
