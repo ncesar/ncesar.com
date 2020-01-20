@@ -1,18 +1,23 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const PaginationWrapper = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #8899a6;
-  border-top: 1px solid #38444d;
+  color: var(--texts);
+  border-top: 1px solid var(--borders);
   padding: 1.5rem 3rem;
   a {
-    color: #8899a6;
+    color: var(--texts);
     text-decoration: none;
     transition: color 0.5s;
     &:hover {
-      color: #1fa1f2;
+      color: var(--highlight);
     }
   }
+  ${media.lessThan('large')`
+    font-size: .8rem;
+    padding: 1rem;
+  `}
 `;

@@ -4,6 +4,7 @@ category: test
 date: 2018-01-03 05:53:20
 title: This DONT slug sucks
 description: It really sucks, just like this description
+image: '/assets/img/desert.jpeg'
 ---
 
 # Lorem Ipsum

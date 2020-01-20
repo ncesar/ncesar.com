@@ -1,8 +1,12 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const SocialLinksWrapper = styled.nav`
   width: 100%;
   margin: 2rem auto;
+  ${media.lessThan('large')`
+    display: none;
+  `}
 `;
 export const SocialLinksList = styled.ul`
   display: flex;
@@ -12,11 +16,11 @@ export const SocialLinksList = styled.ul`
 `;
 export const SocialLinksItem = styled.li``;
 export const SocialLinksLink = styled.a`
-  color: #8899a6;
+  color: var(--texts);
   text-decoration: none;
   transition: color 0.5s;
   &:hover {
-    color: #1fa1f2;
+    color: var(--highlight);
   }
 `;
 export const IconWrapper = styled.div`

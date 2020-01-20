@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './styled';
+import getThemeColor from '../../utils/getThemeColor';
 
 const PostItem = ({
   slug,
@@ -12,7 +13,13 @@ const PostItem = ({
   description,
 }) => {
   return (
-    <S.PostItemLink to={slug}>
+    <S.PostItemLink
+      cover
+      direction="right"
+      bg={getThemeColor()}
+      duration={0.5}
+      to={slug}
+    >
       <S.PostItemWrapper>
         <S.PostItemTag background={background}>{category}</S.PostItemTag>
         <S.PostItemInfo>
@@ -32,7 +39,7 @@ PostItem.propTypes = {
   background: PropTypes.string,
   category: PropTypes.string.isRequired,
   date: PropTypes.string,
-  timeToRead: PropTypes.string,
+  timeToRead: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   title: PropTypes.string,
   description: PropTypes.string,
 };

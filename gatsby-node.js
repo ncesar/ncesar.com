@@ -54,6 +54,7 @@ exports.createPages = ({ graphql, actions }) => {
               background
               category
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+              image
               description
               title
             }

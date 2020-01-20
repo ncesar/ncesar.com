@@ -1,26 +1,27 @@
 import styled from 'styled-components';
-import { Link } from 'gatsby';
+import media from 'styled-media-query';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 export const RecommendedWrapper = styled.section`
   display: flex;
-  border-bottom: 1px solid #38444d;
-  border-top: 1px solid #38444d;
-  background: #192734;
+  border-bottom: 1px solid var(--borders);
+  border-top: 1px solid var(--borders);
+  background: var(--mediumBackground);
 `;
-export const RecommendedLink = styled(Link)`
+export const RecommendedLink = styled(AniLink)`
   display: flex;
   align-items: center;
-  background: #192734;
-  color: #1fa1f2;
+  background: var(--mediumBackground);
+  color: var(--highlight);
   padding: 3rem;
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;
   &:hover {
-    background: #38444d;
+    background: var(--borders);
   }
   &.previous {
-    border-right: 1px solid #38444d;
+    border-right: 1px solid var(--borders);
   }
   &.previous:before {
     content: '\\2190';
@@ -33,4 +34,9 @@ export const RecommendedLink = styled(Link)`
     content: '\\2192';
     margin-left: 0.5rem;
   }
+  ${media.lessThan('large')`
+    padding: 2rem 1rem;
+    line-height: 1.3;
+    font-size: .9rem;
+  `}
 `;
