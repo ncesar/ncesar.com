@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `César Nascimento`,
     position: 'Developer',
-    description: `Um blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!`,
+    description: `O blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!`,
     author: `@ncesar`,
     siteUrl: 'https://ncesar.com',
   },
@@ -80,7 +80,7 @@ module.exports = {
         background_color: `#1C2938`,
         theme_color: `#1C2938`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,

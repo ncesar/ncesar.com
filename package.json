@@ -1,7 +1,7 @@
 {
   "name": "ncesar-website",
   "private": true,
-  "description": "Um blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!",
+  "description": "O blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!",
   "version": "0.1.0",
   "author": "César Nascimento <oi@ncesar.com>",
   "dependencies": {
