@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `César Nascimento`,
     position: 'Developer',
-    description: `A blog about a guy that makes programming videos to YouTube and loves technlogy.`,
+    description: `Um blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!`,
     author: `@ncesar`,
     siteUrl: 'https://ncesar.com',
   },
