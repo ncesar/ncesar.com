@@ -39,7 +39,7 @@ export default function HTML(props) {
                 } catch (err) {}
               }
 
-              setTheme(preferredTheme || 'dark');
+              setTheme(preferredTheme || 'light');
 
               window.__onDisplayChange = function() {};
 
