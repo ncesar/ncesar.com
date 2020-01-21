@@ -15,10 +15,6 @@ const links = [
     label: 'Youtube',
     url: 'https:/youtube.com/c/ncesar',
   },
-  {
-    label: 'StackOverflow',
-    url: 'https://stackoverflow.com/users/8402168/ncesar',
-  },
 ];
 
 export default links;

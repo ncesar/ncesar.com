@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import * as S from './styled';
-import { Home } from 'styled-icons/boxicons-regular/Home';
+import { HomeHeart as Home } from 'styled-icons/boxicons-regular/HomeHeart';
 import { SearchAlt2 as Search } from 'styled-icons/boxicons-regular/SearchAlt2';
-import { UpArrowAlt as Arrow } from 'styled-icons/boxicons-regular/UpArrowAlt';
-import { LightbulbOutline as Light } from 'styled-icons/material/LightbulbOutline';
-import { Grid } from 'styled-icons/boxicons-regular/Grid';
+import { ArrowAltCircleUp as Arrow } from 'styled-icons/fa-regular/ArrowAltCircleUp';
+import { Lightbulb as Light } from 'styled-icons/fa-regular/Lightbulb';
+import { GridAlt as Grid } from 'styled-icons/boxicons-solid/GridAlt';
 import { ThList as List } from 'styled-icons/typicons/ThList';
 
 import getThemeColor from '../../utils/getThemeColor';
@@ -71,7 +71,12 @@ const MenuBar = () => {
         >
           {isListMode ? <Grid /> : <List />}
         </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o Topo">
+        <S.MenuBarItem
+          title="Ir para o Topo"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
           <Arrow />
         </S.MenuBarItem>
       </S.MenuBarGroup>

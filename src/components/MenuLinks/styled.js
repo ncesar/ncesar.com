@@ -6,6 +6,10 @@ export const MenuLinksWrapper = styled.nav`
   ${media.lessThan('large')`
     display: none;
   `}
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
 `;
 export const MenuLinksList = styled.ul`
   font-size: 1.2rem;
@@ -13,6 +17,7 @@ export const MenuLinksList = styled.ul`
 `;
 export const MenuLinksItem = styled.li`
   padding: 0.5rem 0;
+  font-weight: bold;
   .active {
     color: var(--highlight);
   }

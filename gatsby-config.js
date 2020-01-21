@@ -4,7 +4,7 @@ const queries = require('./src/utils/algolia_queries');
 module.exports = {
   siteMetadata: {
     title: `César Nascimento`,
-    position: 'Developer',
+    position: 'oi@ncesar.com',
     description: `O blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!`,
     author: `@ncesar`,
     siteUrl: 'https://ncesar.com',
@@ -75,7 +75,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `César Nascimento Blog`,
-        short_name: `ncesar`,
+        short_name: `ncesar.com`,
         start_url: `/`,
         background_color: `#1C2938`,
         theme_color: `#1C2938`,

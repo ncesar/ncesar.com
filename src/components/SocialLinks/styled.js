@@ -4,6 +4,8 @@ import media from 'styled-media-query';
 export const SocialLinksWrapper = styled.nav`
   width: 100%;
   margin: 2rem auto;
+  display: flex;
+  align-items: baseline;
   ${media.lessThan('large')`
     display: none;
   `}
@@ -14,7 +16,12 @@ export const SocialLinksList = styled.ul`
   justify-content: space-around;
   list-style: none;
 `;
-export const SocialLinksItem = styled.li``;
+export const SocialLinksItem = styled.li`
+  margin-right: 5px;
+  &:last-child {
+    margin-right: 0;
+  }
+`;
 export const SocialLinksLink = styled.a`
   color: var(--texts);
   text-decoration: none;
@@ -24,7 +31,7 @@ export const SocialLinksLink = styled.a`
   }
 `;
 export const IconWrapper = styled.div`
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   fill: #bbb;
 `;

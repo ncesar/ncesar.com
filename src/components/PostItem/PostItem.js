@@ -21,7 +21,6 @@ const PostItem = ({
       to={slug}
     >
       <S.PostItemWrapper>
-        <S.PostItemTag background={background}>{category}</S.PostItemTag>
         <S.PostItemInfo>
           <S.PostItemDate>
             {date} • {timeToRead} min de leitura
@@ -29,6 +28,7 @@ const PostItem = ({
           <S.PostItemTitle>{title}</S.PostItemTitle>
           <S.PostItemDescription>{description}</S.PostItemDescription>
         </S.PostItemInfo>
+        <S.PostItemTag background={background}>{category}</S.PostItemTag>
       </S.PostItemWrapper>
     </S.PostItemLink>
   );

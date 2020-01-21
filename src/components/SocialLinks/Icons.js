@@ -1,15 +1,13 @@
-import { Github } from 'styled-icons/boxicons-logos/Github';
-import { Youtube } from 'styled-icons/boxicons-logos/Youtube';
-import { Linkedin } from 'styled-icons/boxicons-logos/Linkedin';
-import { Instagram } from 'styled-icons/boxicons-logos/Instagram';
-import { StackOverflow } from 'styled-icons/boxicons-logos/StackOverflow';
+import { GithubSquare as Github } from 'styled-icons/fa-brands/GithubSquare';
+import { YoutubeSquare as Youtube } from 'styled-icons/fa-brands/YoutubeSquare';
+import { Linkedin } from 'styled-icons/fa-brands/Linkedin';
+import { Instagram } from 'styled-icons/fa-brands/Instagram';
 
 const Icons = {
   Github,
   Youtube,
   Linkedin,
   Instagram,
-  StackOverflow,
 };
 
 export default Icons;
