@@ -1,17 +1,16 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import Page404 from '../components/Page404';
 
 import SEO from '../components/seo';
 import GlobalStyles from '../styles/global';
 
 const Container = styled.section`
   align-items: center;
-  background-image: url('https://willianjusten.com.br/assets/img/john-404.gif');
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 800px;
-  color: #111;
   display: flex;
   font-family: -apple-system, BlinkMacSystemFont, 'San Francisco',
     'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial,
@@ -21,10 +20,6 @@ const Container = styled.section`
   justify-content: center;
   padding: 0 20px;
   width: 100vw;
-
-  @media screen and (max-width: 768px) {
-    background-size: 280px;
-  }
 `;
 
 const Title = styled.h1`
@@ -34,12 +29,6 @@ const Title = styled.h1`
   font-weight: bold;
   letter-spacing: 0.1em;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-`;
-
-const Text = styled.p`
-  background: var(--background);
-  color: var(--texts);
-  font-family: Courier, monospace;
 `;
 
 const Button = styled(Link)`
@@ -67,11 +56,8 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <GlobalStyles />
     <Title>404</Title>
-    <Text>
-      Ué? Cadê? Parece que não tem o que você procura. Ou então procure algo :)
-      \/ searchbox
-    </Text>
-    <Button to="/">De volta ao blog!</Button>
+    <Page404 />
+    <Button to="/">Ir para Página inicial</Button>
   </Container>
 );
 
