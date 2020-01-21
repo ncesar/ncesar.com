@@ -2,6 +2,27 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './styled';
 import getThemeColor from '../../utils/getThemeColor';
+import { Coffee } from 'styled-icons/boxicons-regular/Coffee';
+
+const returnCoffeeIcon = num => {
+  for (let index = 0; index < num; index++) {
+    return <Coffee style={{ width: 20 }} />;
+  }
+};
+
+const coffeNeeded = timeToRead => {
+  if (timeToRead >= 3) {
+    return returnCoffeeIcon(1);
+  } else if (timeToRead >= 5) {
+    return returnCoffeeIcon(2);
+  } else if (timeToRead >= 10) {
+    return returnCoffeeIcon(3);
+  } else if (timeToRead >= 15) {
+    return returnCoffeeIcon(4);
+  } else {
+    return <Coffee style={{ width: 20 }} />;
+  }
+};
 
 const PostItem = ({
   slug,
@@ -23,7 +44,7 @@ const PostItem = ({
       <S.PostItemWrapper>
         <S.PostItemInfo>
           <S.PostItemDate>
-            {date} • {timeToRead} min de leitura
+            {date} • {timeToRead} min de leitura - {coffeNeeded(timeToRead)}
           </S.PostItemDate>
           <S.PostItemTitle>{title}</S.PostItemTitle>
           <S.PostItemDescription>{description}</S.PostItemDescription>

@@ -4,6 +4,8 @@ import media from 'styled-media-query';
 export const SocialLinksWrapper = styled.nav`
   width: 100%;
   margin: 2rem auto;
+  margin-top: -5px;
+  margin-left: 55px;
   display: flex;
   align-items: baseline;
   ${media.lessThan('large')`

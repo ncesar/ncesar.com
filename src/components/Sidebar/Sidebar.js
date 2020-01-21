@@ -8,8 +8,8 @@ const Sidebar = () => {
   return (
     <S.SidebarWrapper>
       <Profile />
-      <SocialLinks />
       <MenuLinks />
+      <SocialLinks />
     </S.SidebarWrapper>
   );
 };

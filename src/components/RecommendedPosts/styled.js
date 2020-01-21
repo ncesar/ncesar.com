@@ -4,8 +4,7 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 export const RecommendedWrapper = styled.section`
   display: flex;
-  border-bottom: 1px solid var(--borders);
-  border-top: 1px solid var(--borders);
+  border: 1px solid var(--borders);
   background: var(--mediumBackground);
 `;
 export const RecommendedLink = styled(AniLink)`

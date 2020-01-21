@@ -1,11 +1,13 @@
 import React from 'react';
 import CustomTypography from '../CustomTypography';
+import SocialLinks from '../SocialLinks';
 import * as S from './styled';
 
 const AboutList = props => {
   return (
     <React.Fragment>
       <CustomTypography variant="h2">🤘César Nascimento</CustomTypography>
+      <SocialLinks style={{ marginBottom: 5 }} />
       <S.AboutListWrapper {...props}>
         <S.AboutListItem>
           Desenvolvedor Fullstack no{' '}

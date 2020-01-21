@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import PostItem from '../components/PostItem';
 import Pagination from '../components/Pagination';
-import CustomTypography from '../components/CustomTypography';
 import * as S from '../components/ListWrapper/styled';
 
 const BlogList = props => {
@@ -19,10 +18,9 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO
-        title="Início"
+        title="Página Inicial"
         description="O blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!"
       />
-      <CustomTypography variant="h1">Últimas postagens</CustomTypography>
       <S.ListWrapper>
         {postList.map(
           ({

@@ -3,7 +3,7 @@ import * as S from './styled';
 import { HomeHeart as Home } from 'styled-icons/boxicons-regular/HomeHeart';
 import { SearchAlt2 as Search } from 'styled-icons/boxicons-regular/SearchAlt2';
 import { ArrowAltCircleUp as Arrow } from 'styled-icons/fa-regular/ArrowAltCircleUp';
-import { Lightbulb as Light } from 'styled-icons/fa-regular/Lightbulb';
+import { Lightbulb as Light } from 'styled-icons/remix-line/Lightbulb';
 import { GridAlt as Grid } from 'styled-icons/boxicons-solid/GridAlt';
 import { ThList as List } from 'styled-icons/typicons/ThList';
 

@@ -20,7 +20,6 @@ export const PostItemWrapper = styled.section`
   border-bottom: 1px solid var(--borders);
   padding: 1.5rem 3rem;
   width: 100%;
-  box-shadow: 0 0 3px #eee;
   body#grid & {
     border: none;
     padding: 2rem 1rem;
