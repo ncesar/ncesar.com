@@ -6,6 +6,7 @@ import { ArrowAltCircleUp as Arrow } from 'styled-icons/fa-regular/ArrowAltCircl
 import { Lightbulb as Light } from 'styled-icons/remix-line/Lightbulb';
 import { GridAlt as Grid } from 'styled-icons/boxicons-solid/GridAlt';
 import { ThList as List } from 'styled-icons/typicons/ThList';
+import { Rss } from 'styled-icons/boxicons-regular/Rss';
 
 import getThemeColor from '../../utils/getThemeColor';
 
@@ -49,6 +50,18 @@ const MenuBar = () => {
         >
           <S.MenuBarItem>
             <Search />
+          </S.MenuBarItem>
+        </S.MenuBarLink>
+        <S.MenuBarLink
+          to="/feed.xml"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.5}
+          title="RSS"
+        >
+          <S.MenuBarItem>
+            <Rss />
           </S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
