@@ -4,7 +4,7 @@ category: test
 date: 2018-01-03 05:53:20
 title: This slug sucks
 description: It really sucks, just like this description
-timeToWatch: 2 min de vídeo
+timeToWatch: 2
 ---
 
 # Lorem Ipsum

@@ -59,11 +59,7 @@ const PostItem = ({
             {timeToWatch === '' || timeToWatch === null
               ? [timeToRead, ' min de leitura - ', coffeeNeeded(timeToRead)]
               : // eslint-disable-next-line react/prop-types
-                [
-                  timeToWatch,
-                  ' - ',
-                  coffeeNeeded(parseInt(timeToWatch.substring(0, 2))),
-                ]}
+                [timeToWatch, ' min de vídeo - ', coffeeNeeded(timeToWatch)]}
           </S.PostItemDate>
           <S.PostItemTitle>{title}</S.PostItemTitle>
           <S.PostItemDescription>{description}</S.PostItemDescription>
@@ -82,6 +78,7 @@ PostItem.propTypes = {
   timeToRead: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   title: PropTypes.string,
   description: PropTypes.string,
+  timeToWatch: PropTypes.number,
 };
 
 export default PostItem;
