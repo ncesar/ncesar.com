@@ -38,17 +38,15 @@ export const PostItemTag = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--postColor);
+  color: #fff;
   font-size: 1.3rem;
   font-weight: 700;
   min-height: 20px;
   min-width: 90px;
   text-transform: uppercase;
-  color: var(--black);
   margin-top: 5px;
   border-radius: 5px;
   padding: 2px;
-  box-shadow: 0 0 6px #eeeeee96;
   body#grid & {
     margin-bottom: 1.5rem;
   }
@@ -81,7 +79,7 @@ export const PostItemTitle = styled.h1`
   }
 `;
 export const PostItemDescription = styled.p`
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
 `;
