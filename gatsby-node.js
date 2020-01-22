@@ -55,7 +55,7 @@ exports.createPages = ({ graphql, actions }) => {
               category
               timeToWatch
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-              image
+              thumbnail
               description
               title
             }
