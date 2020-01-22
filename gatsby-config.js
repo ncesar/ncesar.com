@@ -75,7 +75,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `César Nascimento Blog`,
-        short_name: `ncesar.com`,
+        short_name: `NCesar`,
         start_url: `/`,
         background_color: `#1C2938`,
         theme_color: `#1C2938`,

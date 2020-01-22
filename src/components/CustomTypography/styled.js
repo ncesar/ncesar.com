@@ -10,4 +10,7 @@ export const StyledTypography = styled(Typography)`
   ${media.lessThan('large')`
     padding-left: 16px;
   `}
+  ${media.lessThan('small')`
+    font-size: 24px;
+  `}
 `;
