@@ -9,7 +9,7 @@ export const SidebarWrapper = styled.aside`
   position: fixed;
   text-align: center;
   width: 100%;
-  height: 11vh;
+  height: 105px;
   padding: 1rem 2rem;
   align-items: flex-start;
   ${media.lessThan('large')`
