@@ -53,10 +53,7 @@ export const PostItemTag = styled.div`
   ${media.lessThan('large')`
     border-radius: 0;
     font-size: 1rem;
-    min-height: auto;
-    min-width: auto;
     padding: .2rem .5rem;
-    margin-bottom: .7rem;
   `}
 `;
 export const PostItemInfo = styled.div`

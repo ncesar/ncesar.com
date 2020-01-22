@@ -1,9 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import * as S from './styled';
-/////////////////////
-//ver efeitos de imagem depois no Gatsby
-/////////////////////
 
 const Avatar = () => {
   const { avatarImage } = useStaticQuery(
