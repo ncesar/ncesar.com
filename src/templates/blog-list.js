@@ -18,14 +18,21 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO
-        title="Página Inicial"
+        title="Início"
         description="O blog de um jovem que faz vídeos de programação para o YouTube e que ama tecnologia!"
       />
       <S.ListWrapper>
         {postList.map(
           ({
             node: {
-              frontmatter: { background, category, date, description, title },
+              frontmatter: {
+                background,
+                category,
+                timeToWatch,
+                date,
+                description,
+                title,
+              },
               timeToRead,
               id,
               fields: { slug },
@@ -40,6 +47,7 @@ const BlogList = props => {
               title={title}
               timeToRead={timeToRead}
               background={background}
+              timeToWatch={timeToWatch}
             />
           ),
         )}
@@ -68,6 +76,7 @@ export const query = graphql`
           frontmatter {
             background
             category
+            timeToWatch
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title

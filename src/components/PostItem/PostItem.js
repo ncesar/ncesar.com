@@ -4,15 +4,15 @@ import * as S from './styled';
 import getThemeColor from '../../utils/getThemeColor';
 import { Coffee } from 'styled-icons/boxicons-regular/Coffee';
 
-const coffeNeeded = timeToRead => {
-  if (timeToRead >= 5) {
+const coffeeNeeded = timeToRead => {
+  if (timeToRead >= 5 && timeToRead < 10) {
     return (
       <React.Fragment>
         <Coffee style={{ width: 20 }} />
         <Coffee style={{ width: 20 }} />
       </React.Fragment>
     );
-  } else if (timeToRead >= 10) {
+  } else if (timeToRead >= 10 && timeToRead < 15) {
     return (
       <React.Fragment>
         <Coffee style={{ width: 20 }} />
@@ -42,6 +42,7 @@ const PostItem = ({
   timeToRead,
   title,
   description,
+  timeToWatch,
 }) => {
   return (
     <S.PostItemLink
@@ -54,7 +55,15 @@ const PostItem = ({
       <S.PostItemWrapper>
         <S.PostItemInfo>
           <S.PostItemDate>
-            {date} • {timeToRead} min de leitura - {coffeNeeded(timeToRead)}
+            {date} •{' '}
+            {timeToWatch === '' || timeToWatch === null
+              ? [timeToRead, ' min de leitura - ', coffeeNeeded(timeToRead)]
+              : // eslint-disable-next-line react/prop-types
+                [
+                  timeToWatch,
+                  ' - ',
+                  coffeeNeeded(parseInt(timeToWatch.substring(0, 2))),
+                ]}
           </S.PostItemDate>
           <S.PostItemTitle>{title}</S.PostItemTitle>
           <S.PostItemDescription>{description}</S.PostItemDescription>

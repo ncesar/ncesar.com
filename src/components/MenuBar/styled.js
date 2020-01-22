@@ -8,7 +8,6 @@ export const MenuBarWrapper = styled.aside`
   flex-direction: column;
   justify-content: space-between;
   background: var(--mediumBackground);
-  border-left: 1px solid var(--borders);
   border-top: 1px solid var(--borders);
   bottom: 0;
   flex-direction: row;

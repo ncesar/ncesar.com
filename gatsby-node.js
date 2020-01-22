@@ -53,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
             frontmatter {
               background
               category
+              timeToWatch
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               image
               description

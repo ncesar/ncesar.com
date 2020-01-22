@@ -23,6 +23,12 @@ collections:
         }
       - { label: 'image', name: 'thumbnail', widget: 'image' }
       - {
+          label: 'Time to watch',
+          name: 'timeToWatch',
+          widget: 'string',
+          required: false,
+        }
+      - {
           label: 'Category',
           name: 'category',
           widget: 'select',

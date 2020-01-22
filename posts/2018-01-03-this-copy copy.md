@@ -4,6 +4,7 @@ category: test
 date: 2008-01-03 05:53:20
 title: This slufdfdfsd
 description: It really sucks, just like this description
+timeToWatch: 2 min de vídeo
 ---
 
 # Lorem Ipsum
