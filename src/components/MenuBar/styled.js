@@ -38,6 +38,14 @@ export const MenuBarLink = styled(AniLink)`
     }
   }
 `;
+export const MenuBarRssLink = styled.a`
+  display: block;
+  &.active {
+    span {
+      color: var(--highlight);
+    }
+  }
+`;
 export const MenuBarItem = styled.span`
   color: var(--texts);
   cursor: pointer;

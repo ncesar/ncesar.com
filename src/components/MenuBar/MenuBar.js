@@ -52,18 +52,11 @@ const MenuBar = () => {
             <Search />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink
-          to="/feed.xml"
-          cover
-          direction="right"
-          bg={getThemeColor()}
-          duration={0.5}
-          title="RSS"
-        >
+        <S.MenuBarRssLink href="/feed.xml" title="RSS">
           <S.MenuBarItem>
             <Rss />
           </S.MenuBarItem>
-        </S.MenuBarLink>
+        </S.MenuBarRssLink>
       </S.MenuBarGroup>
       <S.MenuBarGroup>
         <S.MenuBarItem
