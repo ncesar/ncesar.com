@@ -39,14 +39,14 @@ export const PostItemTag = styled.div`
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 1.3rem;
   font-weight: 700;
   min-height: 20px;
-  min-width: 90px;
   text-transform: uppercase;
   margin-top: 5px;
   border-radius: 5px;
-  padding: 2px;
+  padding: 4px;
+  font-size: 15px;
+  min-width: 70px;
   body#grid & {
     margin-bottom: 1.5rem;
   }

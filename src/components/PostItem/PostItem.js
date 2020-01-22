@@ -4,21 +4,31 @@ import * as S from './styled';
 import getThemeColor from '../../utils/getThemeColor';
 import { Coffee } from 'styled-icons/boxicons-regular/Coffee';
 
-const returnCoffeeIcon = num => {
-  for (let index = 0; index < num; index++) {
-    return <Coffee style={{ width: 20 }} />;
-  }
-};
-
 const coffeNeeded = timeToRead => {
-  if (timeToRead >= 3) {
-    return returnCoffeeIcon(1);
-  } else if (timeToRead >= 5) {
-    return returnCoffeeIcon(2);
+  if (timeToRead >= 5) {
+    return (
+      <React.Fragment>
+        <Coffee style={{ width: 20 }} />
+        <Coffee style={{ width: 20 }} />
+      </React.Fragment>
+    );
   } else if (timeToRead >= 10) {
-    return returnCoffeeIcon(3);
+    return (
+      <React.Fragment>
+        <Coffee style={{ width: 20 }} />
+        <Coffee style={{ width: 20 }} />
+        <Coffee style={{ width: 20 }} />
+      </React.Fragment>
+    );
   } else if (timeToRead >= 15) {
-    return returnCoffeeIcon(4);
+    return (
+      <React.Fragment>
+        <Coffee style={{ width: 20 }} />
+        <Coffee style={{ width: 20 }} />
+        <Coffee style={{ width: 20 }} />
+        <Coffee style={{ width: 20 }} />
+      </React.Fragment>
+    );
   } else {
     return <Coffee style={{ width: 20 }} />;
   }

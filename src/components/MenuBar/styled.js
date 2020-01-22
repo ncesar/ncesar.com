@@ -9,11 +9,6 @@ export const MenuBarWrapper = styled.aside`
   justify-content: space-between;
   background: var(--mediumBackground);
   border-left: 1px solid var(--borders);
-  /* height: 100vh; */
-  /* padding: 0.8rem 0; */
-  /* position: fixed; */
-  /* right: 0; */
-  /* width: 3.75rem; */
   border-top: 1px solid var(--borders);
   bottom: 0;
   flex-direction: row;
