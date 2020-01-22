@@ -18,6 +18,6 @@ export const LayoutMain = styled.main`
     grid-template-areas: 'posts' 'pagination';
   }
   ${media.lessThan('large')`
-    padding: 6.125rem 0 3rem 0;
+    padding: 4rem 0 3rem 0;
   `}
 `;
