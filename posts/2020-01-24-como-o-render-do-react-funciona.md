@@ -6,4 +6,8 @@ thumbnail: assets/img/carbon (1).svg
 category: React
 background: '#3154D8'
 ---
-..
+..<!--StartFragment-->
+
+<https://stackoverflow.com/questions/49078679/what-is-the-difference-between-render-and-return-in-reactjs>
+
+<!--EndFragment-->
