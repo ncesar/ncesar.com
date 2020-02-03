@@ -8,9 +8,7 @@ thumbnail: assets/img/carbon.png
 category: Geral
 background: '#7A5ABF'
 ---
-Queria comentar sobre um assunto que vem acontecendo no LinkedIn e a um tempo atrás me afetou, e por isso acredito que talvez esse texto possa ajudar alguém.
-
-...
+Queria comentar sobre um assunto que vem acontecendo no LinkedIn e que a um tempo atrás me afetou, por isso acredito que talvez esse texto possa ajudar alguém.
 
 Postar algo que está aprendendo é massa, compartilhar novas experiências e conhecimento também é algo bom. Mas a gente tem que prestar atenção, se estamos postando aquele projetinho novo por que realmente queremos ajudar alguém, a nós próprio ou se é apenas uma competição de ego pra mostrar quem sabe mais?!
 
