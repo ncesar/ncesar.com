@@ -6,7 +6,9 @@ backend:
 publish_mode: editorial_workflow
 media_folder: 'static/assets/img'
 public_folder: 'assets/img'
+show_preview_links: true
 slug:
+  encoding: 'ascii'
   clean_accents: true
 collections:
   - name: 'posts' # Used in routes, e.g., /admin/collections/blog
