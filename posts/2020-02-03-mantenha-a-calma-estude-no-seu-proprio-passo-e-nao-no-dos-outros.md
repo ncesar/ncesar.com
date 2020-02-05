@@ -1,16 +1,14 @@
 ---
 title: 'Mantenha a calma, estude no seu próprio passo e não no dos outros'
 description: >-
-  Uma postagem que reflete como as redes sociais podem impactar no estudos de
+  Uma postagem que reflete como as redes sociais podem impactar no estudo de
   desenvolvedores
-date: '2020-02-03 07:04:13'
+date: '2020-02-03 07:43:01'
 thumbnail: assets/img/carbon.png
-category: Dicas
-background: '#80BF5A'
+category: Geral
+background: '#7A5ABF'
 ---
-Queria comentar sobre um assunto que vem acontecendo no LinkedIn e a um tempo atrás me afetou, e por isso acredito que talvez esse texto possa ajudar alguém.
-
-...
+Queria comentar sobre um assunto que vem acontecendo no LinkedIn e que a um tempo atrás me afetou, por isso acredito que talvez esse texto possa ajudar alguém.
 
 Postar algo que está aprendendo é massa, compartilhar novas experiências e conhecimento também é algo bom. Mas a gente tem que prestar atenção, se estamos postando aquele projetinho novo por que realmente queremos ajudar alguém, a nós próprio ou se é apenas uma competição de ego pra mostrar quem sabe mais?!
 
@@ -22,6 +20,4 @@ Sabe o pior? É que nessa competição, as pessoas se iludem e aquele cara(sem g
 
 Fica a dica! É complicado lidar com a famosa síndrome do impostor, a qual você sente que não deveria estar em determinado lugar ou posição, ou que está para trás quando comparado aos outros, mas quando começamos a entender que temos os nossos próprios passos, as coisas tendem a melhorar e nos cobramos menos.
 
-Uma postagem que inspirou essa foi a do Dan Abramov, minha inspiração no Desenvolvimento Web, um mestre do ReactJS e um dos criadores do Redux, dá uma olhada:<https://overreacted.io/my-decade-in-review/>
-
-Postei esse texto no meu blog,<https://ncesar.com>, no qual eu posto minhas opiniões sobre a área de Desenvolvimento e também faço vídeos ensinando alguns assuntos da área, como ReactJS, Javascript, Algoritmos. Se você gostou da postagem, dá uma olhada tb :)
+Uma postagem que inspirou essa foi a do Dan Abramov, minha inspiração no Desenvolvimento Web, um mestre do ReactJS e um dos criadores do Redux, dá uma olhada: <https://overreacted.io/my-decade-in-review/>
