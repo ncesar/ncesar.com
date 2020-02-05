@@ -76,7 +76,7 @@ const AboutList = props => {
         style={{
           fontSize: 16,
           fontWeight: 300,
-          paddingTop: 10,
+          padding: '10px 48px',
           lineHeight: '1.2rem',
         }}
       >
