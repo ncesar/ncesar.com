@@ -36,23 +36,7 @@ Obviamente aqui, não precisamos necessariamente usar o useMemo, se tudo o que e
 
 Evitando o render desnecessário de childs:
 
-\`\``JSX\
-function Parent(a, b) {   
-
-// Vai pular o re-render se o argumento A não mudar
-
-const childA = React.useMemo(() => <ChildA item={a} />, \[a]);   
-
-// Vai pular o re-render se o B não mudar.
-
-const childB = React.useMemo(() => <ChildB item={b} />, \[b]);
-
-  return (     
-
-<>       {childA}       {childB}\
-</>   ) }
-
-\`\``
+![Função JSX](assets/img/Sem Título-1.png)
 
 Quando não utilizar o `useMemo`?
 
