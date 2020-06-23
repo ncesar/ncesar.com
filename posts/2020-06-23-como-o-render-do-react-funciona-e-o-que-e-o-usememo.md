@@ -18,7 +18,7 @@ De uma forma bem resumida, a renderização do React é feita da seguinte forma:
    Sendo o `primeiroDOM` a página anterior do React com seus componentes e o `atualDOM` a mesma página mas com componentes possivelmente diferentes. \
 3. Se o `primeiroDOM` for diferente do `atualDOM`, ele efetua um re-render(renderização da página), se não, o DOM não muda e a página continua a mesma.
 
-De uma forma mais prática, se eu crio um elemento com o título *Eu gosto da minha família* e depois altero o título desse elemento para: *Eu gosto **muito** da minha família*, o re-render vai acontecer por que o conteúdo se alterou.
+De uma forma mais prática, se eu crio um elemento com o título *`Eu gosto de sushi`* e depois altero o título desse elemento para: `Eu gosto `**`muito`**, o re-render vai acontecer por que o conteúdo se alterou.
 
 Agora voltando para o React.memo, precisamos entender mais uma coisa, o que é o Memoization ou Memorização?
 
