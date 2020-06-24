@@ -9,7 +9,7 @@ const links = [
   },
   {
     label: 'Instagram',
-    url: 'https://instagram.com/cesar.dev',
+    url: 'https://instagram.com/ncesardev',
   },
   {
     label: 'Youtube',
