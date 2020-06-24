@@ -10,5 +10,12 @@
 import 'lazysizes';
 require('prismjs/themes/prism-coy.css');
 export const onServiceWorkerUpdateReady = () => {
-  window.location.reload();
+  const answer = window.confirm(
+    `Existe uma nova postagem. ` +
+      `Atualizar para mostrar as novas atualizações?`,
+  );
+
+  if (answer === true) {
+    window.location.reload();
+  }
 };
