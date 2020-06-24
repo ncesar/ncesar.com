@@ -9,3 +9,13 @@
 //import library that is going to be used outside of react
 import 'lazysizes';
 require('prismjs/themes/prism-coy.css');
+export const onServiceWorkerUpdateReady = () => {
+  const answer = window.confirm(
+    `Existe uma nova postagem. ` +
+      `Atualizar para mostrar as novas atualizações?`,
+  );
+
+  if (answer === true) {
+    window.location.reload();
+  }
+};
