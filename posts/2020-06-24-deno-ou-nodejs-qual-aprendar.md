@@ -1,5 +1,5 @@
 ---
-title: Deno ou NodeJS - Qual aprendar?
+title: Deno ou NodeJS - Qual aprender?
 description: >-
   Alguns falam que o Deno é melhor e vários já se empolgaram na ideia de
   aprender a nova linguagem. Seria esse o caminho correto?
