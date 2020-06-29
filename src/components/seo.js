@@ -26,7 +26,8 @@ function SEO({ description, lang, meta, title, image }) {
     `,
   );
   const metaDescription =
-    window && window.location.href === 'https://ncesar.com'
+    typeof window !== 'undefined' &&
+    window.location.href === 'https://ncesar.com'
       ? description
       : site.siteMetadata.description || site.siteMetadata.description;
   console.log(metaDescription, 'metaDesc');
