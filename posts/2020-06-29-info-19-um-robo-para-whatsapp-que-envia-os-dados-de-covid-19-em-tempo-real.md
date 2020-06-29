@@ -6,9 +6,7 @@ thumbnail: assets/img/1.png
 category: JS
 background: '#e2b40b'
 ---
-![Info-19 imagem](assets/img/1.png) <img src="assets/img/1.png" width="300" height="300">
-
-[<img src="assets/img/1.png" width="320" height="320">](assets/img/1.png)
+![info-19](assets/img/info.png)
 
 Esse é o INFO-19, um bot em WhatsApp feito em NodeJS de uma forma rápida e fácil.
 
