@@ -26,7 +26,10 @@ function SEO({ description, lang, meta, title, image }) {
     `,
   );
 
-  const metaDescription = description || site.siteMetadata.description;
+  const metaDescription =
+    window.location.href === 'https://ncesar.com'
+      ? description
+      : site.siteMetadata.description;
 
   const url = site.siteMetadata.siteUrl;
   const ogImage = `${url}${image || '/assets/img/cover.png'}`;
@@ -39,6 +42,10 @@ function SEO({ description, lang, meta, title, image }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        {
+          name: `aplication-name`,
+          content: 'César Nascimento Blog',
+        },
         {
           name: `description`,
           content: metaDescription,
@@ -85,7 +92,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-br`,
   meta: [],
   description: ``,
 };

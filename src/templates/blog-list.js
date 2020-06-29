@@ -14,6 +14,7 @@ const BlogList = props => {
   const isLast = currentPage === numPages;
   const prevPage = currentPage - 1 === 1 ? `/` : `/page/${currentPage - 1}`;
   const nextPage = `/page/${currentPage + 1}`;
+  window.location.reload();
 
   return (
     <Layout>
