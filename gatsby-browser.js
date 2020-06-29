@@ -10,5 +10,5 @@
 import 'lazysizes';
 require('prismjs/themes/prism-coy.css');
 export const onServiceWorkerUpdateReady = () => {
-  window.location.reload();
+  window.location.reload(true);
 };
