@@ -25,11 +25,11 @@ function SEO({ description, lang, meta, title, image }) {
       }
     `,
   );
-
   const metaDescription =
-    window.location.href === 'https://ncesar.com'
+    window && window.location.href === 'https://ncesar.com'
       ? description
-      : site.siteMetadata.description;
+      : site.siteMetadata.description || site.siteMetadata.description;
+  console.log(metaDescription, 'metaDesc');
 
   const url = site.siteMetadata.siteUrl;
   const ogImage = `${url}${image || '/assets/img/cover.png'}`;
