@@ -3,8 +3,8 @@ title: >-
   Entrevistas para vagas de tecnologia que podem desencadear ansiedade - com
   live coding por exemplo - podem excluir até 40% dos candidatos
 description: >-
-  itando diretamente do estudo: "Por exemplo, uma grande população é afetada por
-  ansiedade de performance(é estimado que seja próximo dos 40% de todos os
+  Citando diretamente do estudo: "Por exemplo, uma grande população é afetada
+  por ansiedade de performance(é estimado que seja próximo dos 40% de todos os
   adultos dos EUA[23]).
 date: '2021-12-06 10:00:17'
 thumbnail: assets/img/1638008918779.jpg
